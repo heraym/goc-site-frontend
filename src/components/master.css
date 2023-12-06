@@ -1,0 +1,257 @@
+ 
+.banner-container {
+ position: relative;
+ display: inline-block;
+ background-color: #0E0D0D;
+}
+
+.banner-text {
+ position: absolute;
+ top: 40%;
+ left: 70%;
+ font-family: "Triron", serif;
+ font-size: 20px;
+ color: white;
+}
+.texto-comun { 
+ font-family: "Triron", serif;
+ font-size: 20px;
+ color: white;
+} 
+.map-title {
+ font-family: "Triron", serif;
+ color: #FFC733;
+ font-size: 25px;
+}
+
+.integrante {
+ font-family: "Triron", serif;
+ color: #FFC733;
+ font-size: 20px;
+}
+.tabla-regiones {
+ margin-left: auto;
+ margin-right: auto;
+ border: 0;
+ font-family: "Triron", serif;
+ color: #FFC733;
+ font-size: 23px;
+ width: 80%;
+ height: 200px;
+ text-align: center;
+}
+
+.map-container {
+ position: relative;
+ display: inline-block;
+ width: 1500px;
+ height: 800px;
+}
+.region1-c {
+ position: absolute;
+ top: 20px;
+ left: 10px;
+}
+.region1 {
+ position: absolute;
+ top: 70px;
+ left: 70px;
+}
+.region2 {
+ position: absolute;
+ top: 250px;
+ left: 400px;
+}
+.region3 {
+ position: absolute;
+ top: 50px;
+ left: 650px;
+}
+.region4 {
+ position: absolute;
+ top: 400px;
+ left: 150px;
+}
+.region5 {
+ position: absolute;
+ top: 500px;
+ left: 800px;
+}
+.region6 {
+ position: absolute;
+ top: 250px;
+ left: 1050px;
+}
+.region2-c {
+ position: absolute;
+ top: 20px;
+ left: 200px;
+}
+.region3-c {
+ position: absolute;
+ top: 20px;
+ left: 600px;
+}
+.region4-c {
+ position: absolute;
+ top: 300px;
+ left: 20px;
+}
+.region5-c {
+ position: absolute;
+ top: 450px;
+ left: 700px;
+}
+.region6-c {
+ position: absolute;
+ top: 20px;
+ left: 800px;
+}
+.warrior {
+ position: absolute;
+ top: 0px;
+ left: 1200px;
+}
+.grupoEquipos { display: flex}
+.tableEquipos { display:table; table-layout:auto; width: 400px; }
+.row { display:table-row; }
+.cell { display:table-cell; vertical-align: middle; align: center }
+.tableIntegrantes { display:table; table-layout: auto; width: 400px}
+.titleIntegrantes { width: 100px }
+.nombreEquipo { width: 400px; }
+.bandera { height: 100px; }
+
+.logo {
+    width: 10%;
+  }
+.nav-link{
+    font-family: 'Triron', serif !important;
+    color: white !important;
+    font-size: 20pt !important;
+ }
+.color-bar{
+    background-color: #0E0D0D;
+}   
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.region1 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.region2 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.region3 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region3:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.region4 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region4:hover .tooltiptext {
+  visibility: visible;
+}
+
+.region5 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region5:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.region6 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.region6:hover .tooltiptext {
+  visibility: visible;
+}
